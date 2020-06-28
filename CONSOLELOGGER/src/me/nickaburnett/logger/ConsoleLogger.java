@@ -1,6 +1,5 @@
 package me.nickaburnett.logger;
 
-// ANSI ESCAPE CHARACTER IS \u001b
 public class ConsoleLogger {
     public static void main(String[] args) {
         log(LogLevel.INFO, "This is a test of the _0_ module...", AnsiColor.GREEN.getForeground() + AnsiDecor.ITALIC.getAnsi() + AnsiDecor.BOLD.getAnsi() + "Console Logger");

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ConsoleLogger">
+    <output-path>$PROJECT_DIR$/out/artifacts/ConsoleLogger</output-path>
+    <root id="archive" name="ConsoleLogger.jar">
+      <element id="module-output" name="CONSOLELOGGER" />
+    </root>
+  </artifact>
+</component>
