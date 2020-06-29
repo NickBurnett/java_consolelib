@@ -2,7 +2,7 @@ package me.nickaburnett.logger;
 
 public class ConsoleLogger {
     public static void main(String[] args) {
-        log(LogLevel.INFO, "This is a test of the _0_ module...", AnsiColor.GREEN.getForeground() + AnsiDecor.ITALIC.getAnsi() + AnsiDecor.BOLD.getAnsi() + "Console Logger");
+        log(LogLevel.INFO, "This is a test of the _0_ module...", AnsiColor.LIGHT_PINK.getForeground() + AnsiDecor.ITALIC.getAnsi() + AnsiDecor.BOLD.getAnsi() + "Console Logger");
         log(LogLevel.WARN, "This is a test warning log...");
         log(LogLevel.ERROR, "This is a test for the error log level!");
     }
